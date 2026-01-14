@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
+
   <div>
  <form action="/action_page.php">
 
@@ -16,7 +17,7 @@ document.querySelector('#app').innerHTML = `
     <label for="email">Email :</label><br>
   <input type="text" id="email" name="email" value=""><br><br>
 
-  <input type="submit" value="Submit">
+  <input type="submit" class="btn btn-outline-primary" value="Submit">
 </form> 
 
 
