@@ -9,38 +9,69 @@
     <title>0114mm</title>
   </head>
   <body>
- <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <div class="container-fluid">
+
     <a class="navbar-brand" href="#">
       <img src="vecteezy_cheerful-3d-avatar-with-glasses-for-digital-marketing_57357660 (1).png" alt="Logo" style="width:40px;" class="rounded-pill">
+      Digitális Polgári Kör 
     </a>
+
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto"> 
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Főoldal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kapcsolat</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
 
-<div class="container mt-3">
-  <h2>Digitális Polgári Kör Űrlap</h2>
-  <form action="/action_page.php">
-        <div class="mb-3 mt-3">
-      <label for="email">Név</label>
-      <input type="text" class="form-control" id="nev" placeholder="Enter name" name="name">
-    </div>
-    <div class="mb-3 mt-3">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-    </div>
-    <div class="mb-3">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-    </div>
-    <div class="form-check mb-3">
-      <label class="form-check-label">
-        <input class="form-check-input" type="checkbox" name="remember"> Remember me
-      </label>
-    </div>
-    <button type="submit" class="btn btn-outline-success">Submit</button>
-  </form>
-</div>
+    <div id="message" class="mt-3"></div>
 
+    <div class="container mt-3">
+      <h2>Digitális Polgári Kör Űrlap</h2>
+      <form id="regForm">
+        <div class="mb-3 mt-3">
+          <label for="nev">Név</label>
+          <input type="text" class="form-control" id="nev" placeholder="Enter name" name="name">
+        </div>
+        <div class="mb-3 mt-3">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+        <div class="mb-3">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+        </div>
+        <div class="form-check mb-3">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+          </label>
+        </div>
+        <button type="submit" class="btn btn-outline-success">Submit</button>
+      </form>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+<footer class="bg-dark text-light py-4 mt-5">
+  <div class="container text-center">
+    <p class="mb-1">© 2026 Digitális Polgári Kör</p>
+    <p class="mb-0">Created by <strong>Mohamed</strong></p>
+    <div class="mt-2">
+      <a href="#" class="text-light mx-2">Főoldal</a> |
+      <a href="#" class="text-light mx-2">Kapcsolat</a> |
+      <a href="#" class="text-light mx-2">Adatvédelem</a>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="src/main.js"></script>
 
   </body>
 </html>
